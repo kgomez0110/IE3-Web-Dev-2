@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <script src="angular.min.js"></script>
+</html>
+
+<head>
+        <title>About</title>
+        <link href="style.css" rel="stylesheet" type ="text/css">
+    </head>
+
+
+<body>
+    <div class="image">
+        <img src="logo.png">
+    </div>
+
+    <h1>ABOUT IEEE</h1>
+
+
+    <hr width=70%>
+    <p>
+        The Northwestern University Student Chapter of the Institute of Electrical and Electronics Engineers (IEEE NU) is an organization dedicated to providing the resources and outlets through which the University's aspiring engineers, tinkerers, and hackers can learn and create with their craft. Our chapter is directly supported and funded by Northwestern University's Electrical Engineering and Computer Science (EECS) department.
+    </p>
+
+    <div class="wrapper" ng-app="">
+        <button ng-click="count = count + 1" ng-init="count=0">
+            Do Something
+          </button>
+          <br>
+          <span>
+            We currently have: {{count}} members
+          </span>
+    </div>      
+</body>
