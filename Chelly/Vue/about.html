@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <script src="vue.min.js"></script>
+</html>
+
+<head>
+        <title>About</title>
+        <link href="style.css" rel="stylesheet" type ="text/css">
+    </head>
+
+
+<body>
+    <div class="image">
+        <img src="logo.png">
+    </div>
+
+    <h1>ABOUT IEEE</h1>
+
+
+    <hr width=70%>
+
+    <div id="app">
+        <div id="wrapper">
+            <p>The Northwestern University Student Chapter of the Institute of Electrical and Electronics Engineers (IEEE NU) is an organization dedicated to providing the resources and outlets through which the University's aspiring engineers, tinkerers, and hackers can learn and create with their craft. Our chapter is directly supported and funded by Northwestern University's Electrical Engineering and Computer Science (EECS) department.
+                We currently have {{ counter }} members.</p></div>
+        <button v-on:click="increment">Do Something</button>
+    </div>   
+
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+            counter: 0
+        },
+        methods: {
+            increment() { 
+            this.counter++;
+            }
+        }
+        });
+    </script> 
+</body>
