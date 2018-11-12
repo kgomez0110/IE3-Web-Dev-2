@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</html>
+<head>
+<title>Basketball</title>
+</head>
+<body ng-app="">
+<div>
+      <button ng-click="page='first'">STEPH</button>
+      <button ng-click="page='second'">KLAY</button>
+  </div>
+<div ng-init="page='first'"></div>
+<div ng-show="page === 'first'">
+<h1>Stephen Curry</h1>
+<p>Steph Curry is good at basketball.</p>
+<img src=“download.jpg” width="100" height="80">
+<p>Vote for him for MVP.</p>
+<button ng-click="count = count + 1" ng-init="count=0">VOTE</button>
+<p>Steph has {{count}} votes.</p>
+</div>
+<div ng-show="page === 'second'">
+<h2>Klay Thompson</h2>
+<p>Klay Thompson is good at basketball.</p>
+<img src=“download-1.jpg”>
+<p>Vote for him for MVP.</p>
+<button ng-click="count = count + 1" ng-init="count=0">VOTE</button>
+<p>Klay has {{count}} votes.</p>
+</div>
+</body>
+</html>
