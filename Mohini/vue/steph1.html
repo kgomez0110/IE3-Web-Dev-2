@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <head>
+    <title>My website</title>
+  </head>
+  <body>
+<h1>Who should win MVP?</h1>
+    <div id="app">
+      <ul>
+        <li v-for="p in players">{{p.name}} has {{p.votes}} votes
+          <button v-on:click="voteFor(p)">VOTE</button></li>
+      </ul>
+    </div>
+<script src="steph1.js"></script>
+  </body>
+</html>
