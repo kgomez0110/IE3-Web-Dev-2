@@ -1,0 +1,6 @@
+<div class="hello" [ngStyle]="{ 'background-color': this.color }">
+  <img class="pic" src="{{ this.car }}" alt="kachow">
+  <button class="btn" (click)="changeColor()">Change Background Color</button>
+  <a routerLink="/sally" routerLinkActive="active">Sally</a>
+</div>
+<router-outlet></router-outlet>
