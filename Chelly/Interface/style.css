@@ -1,0 +1,42 @@
+body{
+    background-color: #f2f2f2;
+}
+
+h1{
+    color: #4E2A84;
+    font-size:100px;
+    margin:0px 0px 15px 0px;
+}
+
+#welcome{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    font-family: "Lato";
+}
+
+button{
+    font-family: "Lato";
+    padding:15px;
+    font-size:15px;
+}
+
+#buttons{
+    width:100%;
+    display: flex;
+    justify-content:center;
+}
+
+#create-account{
+    background-color:#4E2A84;
+    color:white;
+    margin-right:35px;
+}
+
+#login{
+    background-color: #f1f1f1;
+    color: #777777;
+    margin-left:35px;
+}
