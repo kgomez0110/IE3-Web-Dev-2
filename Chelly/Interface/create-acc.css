@@ -1,0 +1,68 @@
+body{
+    background-color: #f2f2f2 !important;
+}
+
+#create-acc{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    font-family: "Lato";
+}
+
+div{
+    padding-bottom:20px;
+}
+
+h1{
+    font-family: "Lato";
+    font-size: 30px !important;
+    color: #4E2A84 !important;
+    margin:0px 0px 20px 0px !important;
+}
+
+button{
+    font-family: "Lato";
+    padding: 15px;
+    font-size:15px;
+    border-radius:30px;
+    background-color:#4E2A84;
+    color:white;
+}
+
+#button-div{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+input{
+    width:500px;
+}
+
+select{
+    -webkit-appearance: button;
+   -webkit-user-select: none;
+   background-position: 97% center;
+   background-repeat: no-repeat;
+   color: #555;
+   font-size: inherit;
+   margin: 20px;
+   overflow: hidden;
+   padding: 5px 10px;
+   white-space: nowrap;
+   width: 500px;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png);
+   background-color:white;
+   background-position: 97% center;
+   background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none !important;
+    color:inherit !important;
+}
+a:hover{
+    color: #d7baeb !important;
+}

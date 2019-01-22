@@ -1,0 +1,68 @@
+body{
+    background-color: #f2f2f2;
+}
+
+h1{
+    font-family: "Lato";
+    font-size: 30px !important;
+    color: #4E2A84 !important;
+    margin:0px 0px 20px 0px !important;
+    text-align:center;
+    padding-top:30px;
+}
+
+h2{
+    font-family: "Lato";
+    font-size: 25px !important;
+    color: #d7baeb !important;
+    margin:0px 0px 20px 0px !important;
+    text-align:center;
+}
+
+h3{
+    font-family: "Lato";
+    font-size: 16px !important;
+    margin:0px 0px 20px 0px !important;
+}
+
+#courses{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    font-family: "Lato";
+    overflow: scroll;
+}
+
+input{
+    margin:0;
+    padding:15px;
+    width:500px;
+    height:70px;
+}
+
+div{
+    padding-bottom:20px;
+}
+
+button{
+    font-family: "Lato";
+    padding: 15px;
+    font-size:15px;
+    background-color:#4E2A84;
+    color:white;
+}
+
+#button-div{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none !important;
+    color:inherit !important;
+}
+a:hover{
+    color: #d7baeb !important;
+}

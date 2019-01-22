@@ -21,6 +21,7 @@ button{
     font-family: "Lato";
     padding:15px;
     font-size:15px;
+    border-radius:30px;
 }
 
 #buttons{
@@ -39,4 +40,12 @@ button{
     background-color: #f1f1f1;
     color: #777777;
     margin-left:35px;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+a:hover{
+    color: #d7baeb;
 }
