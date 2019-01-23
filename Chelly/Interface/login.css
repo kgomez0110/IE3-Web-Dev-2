@@ -1,5 +1,5 @@
 body{
-    background-color: #f2f2f2;
+    background-color: #f2f2f2 !important;
 }
 
 #login{
@@ -9,4 +9,50 @@ body{
     justify-content:center;
     align-items: center;
     font-family: "Lato";
+}
+
+div{
+    padding-bottom:20px;
+    height:100%
+}
+
+h1{
+    font-family: "Lato";
+    font-size: 40px !important;
+    color: #4E2A84 !important;
+    margin:0px 0px 20px 0px !important;
+}
+
+button{
+    font-family: "Lato";
+    padding: 15px;
+    font-size:15px;
+    background-color:#4E2A84;
+    color:white;
+    margin-top:20px;
+}
+
+#button-div{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+input{
+    width:500px;
+    height:25px;
+}
+
+a{
+    text-decoration: none !important;
+    color:inherit !important;
+}
+a:hover{
+    color: #d7baeb !important;
+}
+
+#login-button{
+    display:flex;
+    justify-content:center;
+    align-items: center;
 }
