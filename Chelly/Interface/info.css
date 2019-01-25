@@ -1,3 +1,126 @@
 body{
-    background-color: #f2f2f2 !important;
+    background-color: #f2f2f2;
+    height:100%
 }
+
+html{
+    height:100%
+}
+
+h1{
+    color: white !important;
+    font-weight: bold !important;
+    font-size:30px !important;
+    padding:15px 15px 15px 15px;
+    background-color:#3b2364;
+    margin-top:31px !important;
+    text-align:center;
+}
+
+h2{
+    color: #482f7f !important;
+    font-size: 22px !important;
+    text-align: center;
+    font-weight: bold !important;
+    padding-bottom:15px !important;
+}
+
+h3{
+    font-weight: bold !important;
+    font-size: 20px !important;
+    color: #482f7f !important;
+    padding-left:20px !important;
+}
+
+p{
+    text-align:left !important;
+    color: #575757;
+    font-weight: bolder;
+    padding: 0px 20px 0px 20px;
+}
+
+.container-fluid {
+    display:table;
+    width: 100% !important;
+    height:100%;
+    margin: -50px 0px 0px 0px !important;
+    padding: 50px 0px 0px 0px; /*set left/right padding according to needs*/
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+.row {
+    height: 100%;
+    display: table-row;
+}
+
+.row .no-float {
+  display: table-cell;
+  float: none;
+}
+button{
+    font-family: "Lato";
+    padding:15px;
+    font-size:16px;
+    color: white !important;
+    background-color: #3b2364;
+    border:none;
+}
+
+
+.topnav {
+    background-color: #3b2364 !important;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none !important;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #482f7f;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .topnav a.active {
+    background-color: #482f7f;
+    color: white;
+  }
+
+
+.col-md-3{
+    background-color: #d1d1d1;
+    padding:0px;
+}
+
+.col-md-9{
+    background-color: #f0f0f0;
+    padding:0px;
+    overflow-y:scroll;
+}
+
+a{
+    color:#aea3c6 !important;
+    text-decoration: underline !important;
+}
+
+a:hover{
+    color:white !important;
+}
+
+.text-left{
+    line-height: 20px;
+}
+
+.courses,.upcoming{
+    margin:30px 100px 30px 100px !important;
+    background-color:white;
+    padding-bottom:15px;
+}
+

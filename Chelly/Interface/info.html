@@ -1,14 +1,103 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="info.css">
         <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     </head>
 
     <body>
-        <div id="welcome">
-            
+        <div class="topnav">
+            <a class="active" href="home-new.html">Home</a>
+            <div class="dropdown">
+            <button style="float:right" onclick="myFunction()" class="dropbtn">&#9660;</button>
+            </div>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 no-float">
+                        <h1 >Profile </h1>
+                        <br>
+                        <h2>INFORMATION</h2>
+                        <p>School:<span style="float:right">McCormick</span></p>
+                        <p>Major:<span style="float:right">Computer Science</span></p>
+                        <p>Year:<span style="float:right">Sophomore</span></p>
+                        <p>Certificates:<span style="float:right"> Segal Design</span></p>
+                        <hr>
+                        <br>
+                        <h2>CURRENT COURSES</h2>
+                        <p>PHYSICS 135-2</p>
+                        <p>EECS 330</p>
+                        <p><a href="info.html">EECS 213</a></p>
+                        <p>EECS 214</p>
+                        <p class="text-center"><a href="#">View More</a></p>
+                </div>
+                <div class="col-md-9 no-float">
+                    <div class="courses">
+                        <h1>EECS 213: Intro to Computer Systems</h1>
+                        <br>
+                        <h2>COURSE REQUIREMENTS</h2>
+                        <p>EECS 211<span style="float:right">&#10003</span></p>
+                        <hr>
+                        <h2>LOGISTICS</h2>
+                        <p>Time:<span style="float:right">Tuesdays & Thursdays 12:30 - 2pm</span></p>
+                        <p>Location:<span style="float:right">Tech L361</span></p>
+                        <p>Instructor:<span style="float:right">Vincent St. Amour</span></p>
+                        <hr>
+                        <h2>REQUIRED FOR</h2>
+                        <ul>
+                            <li>Computer Science Major</li>
+                            <li>Computer Science Minor</li>
+                        </ul>
+                        <h3>Fulfills:</h3>
+                        <p>1 Core Computer Science Requirement</p>
+                        <hr>
+                        <h2>ELECTIVE FOR</h2>
+                        <ul>
+                            <li>Computer Engineering Major</li>
+                            <li>Electrical Engineering Major</li>
+                        </ul>
+                        <hr>
+                        <h2>PREREQUISITE FOR</h2>
+                        <ul>
+                            <li>EECS 322 (Compilers)</li>
+                            <li>EECS 339 (Databases)</li>
+                            <li>EECS 340 (Networking)</li>
+                            <li>EECS 343 (Operating Systems)</li>
+                            <li>EECS 350 (Security)</li>
+                            <li>EECS 397 (Real-time)</li>
+                            <li>EECS 441 (Compilers)</li>
+                            <li>EECS 442 (Compilers)</li>
+                        </ul>
+                        <hr>
+                        <h2>Description</h2>
+                        <p>This course has four purposes: (1) to learn about the hierarchy of abstractions and implementations that comprise a modern computer system; (2) to demystify the machine and the tools that we use to program it; (3) to come up to speed on systems programming in C in the Unix environment; (4) to prepare students for upper-level systems courses.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
-    
-</html>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>    
+    <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+            </script>
+    </html>
