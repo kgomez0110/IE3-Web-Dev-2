@@ -1,0 +1,19 @@
+{
+  "name": "nu-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgomez0110/IE3-Web-Dev-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kgomez0110/IE3-Web-Dev-2/issues"
+  },
+  "homepage": "https://github.com/kgomez0110/IE3-Web-Dev-2#readme"
+}
