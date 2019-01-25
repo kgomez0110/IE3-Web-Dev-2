@@ -1,5 +1,10 @@
 body{
     background-color: #f2f2f2;
+    height:100%
+}
+
+html{
+    height:100%
 }
 
 h1{
@@ -8,6 +13,8 @@ h1{
     font-size:30px !important;
     padding:15px 15px 15px 15px;
     background-color:#3b2364;
+    margin-top:31px !important;
+    text-align:center;
 }
 
 h2{
@@ -22,6 +29,7 @@ h3{
     font-size: 20px !important;
     color: #482f7f !important;
     padding-left:20px !important;
+    padding-bottom:15px;
 }
 
 p{
@@ -30,15 +38,26 @@ p{
     font-weight: bolder;
     padding: 0px 20px 0px 20px;
 }
-#container{
-    /* height:100vh; */
-    display:flex;
-    flex-direction:column;
-    /* justify-content:center;
-    align-items: center; */
+
+.container-fluid {
+    display:table;
+    width: 100% !important;
+    height:100%;
+    margin: -50px 0px 0px 0px !important;
+    padding: 50px 0px 0px 0px; /*set left/right padding according to needs*/
+    box-sizing: border-box;
     font-family: "Lato";
 }
 
+.row {
+    height: 100%;
+    display: table-row;
+}
+
+.row .no-float {
+  display: table-cell;
+  float: none;
+}
 button{
     font-family: "Lato";
     padding:15px;
@@ -74,14 +93,16 @@ button{
     color: white;
   }
 
-.col{
-    margin: 50px 35px 0px 35px;
+
+.col-md-3{
+    background-color: #d1d1d1;
+    padding:0px;
+}
+
+.col-md-9{
     background-color: #f0f0f0;
-    color:white;
-    font-size:18px !important;
-    height:600px !important;
-    overflow-y: scroll !important;
-    padding:0px !important
+    padding:0px;
+    overflow-y:scroll;
 }
 
 a{
@@ -97,6 +118,9 @@ a:hover{
     line-height: 20px;
 }
 
-#courses{
-    padding-left:20px;
+.courses,.upcoming{
+    margin:30px 100px 30px 100px !important;
+    background-color:white;
+    padding-bottom:15px;
 }
+
